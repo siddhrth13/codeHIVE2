@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#titleMain{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#newsletter{
+    background-color: #c9ada7;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+#name{
+    color: chartreuse;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+}
+
+#para1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    color: bisque;
+}
+
+#register:hover{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: black;
+    background-color: chartreuse;
+    outline-color: black;
+
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
